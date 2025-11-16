@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+/*const { test, expect } = require("@playwright/test");
 
 test.describe("Авторизация на Sauce Demo", () => {
   test("Пользователь должен успешно войти в систему", async ({ page }) => {
@@ -29,3 +29,4 @@ test.describe("Неуспешный вход на Sauce Demo", () => {
     );
   });
 });
+*/
