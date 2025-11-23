@@ -6,7 +6,7 @@ const baseURL = "https://restful-booker.herokuapp.com";
 let createdBookingId;
 let token;
 
-test.describe.serial("Restful-booker API тесты", () => {
+test.describe.serial("@API Restful-booker API тесты", () => {
   test("Создание нового бронирования", async ({ request }) => {
     const bookingData = {
       firstname: "Stas",
