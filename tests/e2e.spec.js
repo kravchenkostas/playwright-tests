@@ -6,7 +6,7 @@ import { CheckoutStepOnePage } from "../pages/CheckoutStepOnePage";
 import { CheckoutStepTwoPage } from "../pages/CheckoutStepTwoPage";
 import { CheckoutCompletePage } from "../pages/CheckoutCompletePage";
 
-test("Авторизация пользователя @ui", async ({ page }) => {
+test("@ui Авторизация пользователя ", async ({ page }) => {
   const loginPage = new LoginPage(page);
   const productPage = new ProductsPage(page);
   const cartPage = new CartPage(page);
